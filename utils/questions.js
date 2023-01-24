@@ -21,15 +21,15 @@ const questions = [
     },
     {
         name: 'contributing',
-        message: 'Please, write a description?'
+        message: 'How people contribute to the repository'
     },
     {
         name: 'tests',
-        message: 'Please, write a description?'
+        message: 'Explain the tests process?'
     },
     {
         name: 'quistions',
-        message: 'Please, write a description?'
+        message: 'Add some questions?'
     },
 ]
 
