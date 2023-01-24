@@ -1,7 +1,20 @@
 const questions = [
     {
+        name: 'file_name',
+        message: 'What is the file name?',
+        default: 'README'
+    },
+    {
         name: 'app_name',
         message: 'What is the application name?'
+    },
+    {
+        name: 'github',
+        message: 'What is your Github account?'
+    },
+    {
+        name: 'email',
+        message: 'What is your email address?'
     },
     {
         name: 'description',
@@ -16,21 +29,19 @@ const questions = [
         message: 'What is the app usage?'
     },
     {
+        type: 'list',
         name: 'license',
-        message: 'What is the license type?'
+        message: 'What is the license type?',
+        choices: ['Apache', 'Boost', 'BSD', 'CC0', 'Eclipse Public License 1.0', 'GNU GPL v3', 'MIT', 'Mozilla', 'Perl', 'SIL', 'Zlib']
     },
     {
         name: 'contributing',
-        message: 'How people contribute to the repository'
+        message: 'Tell about contributing'
     },
     {
         name: 'tests',
-        message: 'Explain the tests process?'
-    },
-    {
-        name: 'quistions',
-        message: 'Add some questions?'
-    },
+        message: 'Tell about tests?',
+    }
 ]
 
 module.exports = questions;
